@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, #ffe6f2, #ffd1ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .final-container {
+    position: relative;
+    background: #fff;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px rgba(255, 150, 200, 0.8);
+    width: 600px;
+    animation: popIn 1s ease;
+  }
+  
+  @keyframes popIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  h1 {
+    color: #ff66b3;
+    text-shadow: 2px 2px #ffb6d9;
+    font-size: 40px;
+  }
+  
+  .message {
+    color: #ff66a3;
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+    line-height: 1.5em;
+  }
+  
+  /* Botão Hello Kitty */
+  .hello-button {
+    background-color: #ffb6d9;
+    color: white;
+    border: 3px solid #ff69b4;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+    text-shadow: 2px 2px 5px #ff69b4;
+    box-shadow: 0 0 15px #ffc0cb;
+    transition: all 0.3s ease;
+  }
+  
+  .hello-button:hover {
+    background-color: #ff8ac9;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff69b4;
+  }
+  
+  /* Laços decorativos */
+  .bow {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+  }
+  
+  .top-left { top: 10px; left: 10px; transform: rotate(-15deg); }
+  .top-right { top: 10px; right: 10px; transform: rotate(15deg); }
+  .bottom-left { bottom: 10px; left: 10px; transform: rotate(15deg); }
+  .bottom-right { bottom: 10px; right: 10px; transform: rotate(-15deg); }
+  

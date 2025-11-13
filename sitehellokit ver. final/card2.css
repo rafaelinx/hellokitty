@@ -1,0 +1,75 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #c43434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #cc141d;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card .mission {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .profile-info div {
+    margin-bottom: 5px;
+  }
+  
+  .xp-bar {
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .xp-fill {
+    background-color: #FFD700;
+    height: 15px;
+    width: 40%; /* 120/300 = 40% */
+  }
+  
+  .achievements {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .achievements div {
+    font-size: 30px;
+  }
